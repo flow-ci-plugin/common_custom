@@ -1,0 +1,20 @@
+
+name: custom
+version: 0.0.1
+language: 
+description: Custom script
+public: true
+tags:
+  - custom
+inputs:
+  - name: FLOW_ENABLE_FAILURE
+    editable: true
+    options:
+      - TRUE
+      - FALSE
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  

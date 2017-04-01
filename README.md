@@ -15,5 +15,4 @@ steps:
     plugin:
       name: custom
       inputs:
-        - FLOW_ENABLE_FAILURE=$FLOW_ENABLE_FAILURE
 ```
